@@ -1,0 +1,51 @@
+.testimonial-wrapper {
+    max-width: 600px;
+    background: #14124c;
+    padding: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 50px auto 0;
+    color: #6b69a2;
+}
+.photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.photo {
+    margin-bottom: 30px;
+}
+
+.message {
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.4;
+    margin-bottom: 25px;
+    color: #bbb9e2;
+    text-align: justify;
+}
+
+.name-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.divider {
+    width: 50px;
+    height: 1px;
+    background: #6b69a2;
+    margin-right: 10px;
+}
+.navigation button {
+    margin: 0 5px;
+    background: #070632;
+    border: none;
+    color: #96b9e2;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(255,255,255,.1);
+    cursor: pointer;
+}
