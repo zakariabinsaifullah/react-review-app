@@ -29,6 +29,14 @@ const Testimonial = () =>{
         });
     }
 
+    // random user function
+    const randomUser = () => {
+        let randomNumber = Math.floor(Math.random() * data.length);
+        if(randomNumber === index ){
+            randomNumber = index + 1;
+        }
+        setIndex(checkNumber(randomNumber));
+    }
     return(
         <div className="testimonial-wrapper">
             <div className="single-testimonial">
@@ -41,6 +49,7 @@ const Testimonial = () =>{
             </div>
             <div className="navigation">
                 <button className="prev" onClick={prevIndex}> Prev </button>
+                <button className="prev" onClick={randomUser}> Random </button>
                 <button className="next" onClick={nextIndex}> Next </button>
             </div>
         </div>
